@@ -1,0 +1,22 @@
+.filter-image-container {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.filter-image {
+  height: 80px;
+  width: 80px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .filter-image {
+    height: 100px;
+    width: 100px;
+    padding-right: 0px;
+  }
+}
+.image-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

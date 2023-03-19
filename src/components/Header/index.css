@@ -1,0 +1,60 @@
+.header-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #2c0e3a;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.website-logo {
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 300px;
+  }
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-length {
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fec653;
+  margin-left: 5px;
+}
+.spam-text {
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fec653;
+  margin-left: 5px;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .spam-text {
+    font-size: 15px;
+  }
+  .card-length {
+    font-size: 15px;
+  }
+  .header-main-container {
+    padding-right: 100px;
+  }
+}
